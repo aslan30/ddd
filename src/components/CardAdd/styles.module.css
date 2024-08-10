@@ -1,0 +1,64 @@
+.add_card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelTitle, .labelDescription {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.title, .description {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.dateSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.date, .dateDeadline {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.date_add, .deadline {
+    font-style: italic;
+}
+
+.addButton {
+    background-color: #d67e34;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.addButton:hover {
+    background-color: #b56227;
+}

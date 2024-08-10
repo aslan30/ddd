@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+body {
+  background-color: #222;
+}
+
+.main-content {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+
 .App {
   text-align: center;
 }
